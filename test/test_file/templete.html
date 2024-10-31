@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="" content=""/>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="[[STYLESHEET_APPLY]]"/>
+        <script src="[[SCRIPT_APPLY]]"></script>
+        <style>
+            @font-face {
+                font-family: "pixelCode";
+                src: url("resource/woff2/PixelCode.woff2") format("woff2");
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: "pixelCode";
+                src: url("resource/woff2/PixelCode-Italic.woff2") format("woff2");
+                font-weight: normal;
+                font-style: italic;
+            }
+            @font-face {
+                font-family: "pixelCode";
+                src: url("resource/woff2/PixelCode-Bold.woff2") format("woff2");
+                font-weight: bold;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: "pixelCode";
+                src: url("resource/woff2/PixelCode-Bold-Italic.woff2") format("woff2");
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            body {
+                color: green;
+                background-color: rgb(25, 25, 25);
+                white-space: pre-wrap;
+                font-family: pixelCode, monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="/index.html">HOME</a>
+            <a href="/about.html">ABOUT</a>
+        </nav>
+        <div class="article">
+[[SUB MARK]]
+        </div>
+        <footer>
+            <p><small>
+Powerd by <a href="https://www.lighttpd.net/">Lighthttpd</a> <a href="https://www.jetbrains.com/lp/mono/">Jetbrains Mono</a>
+            </small></p>
+        </footer>
+    </body>
+</html>

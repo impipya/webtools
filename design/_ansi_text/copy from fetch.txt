@@ -1,0 +1,78 @@
+\e[?25l\e[?7l\e[38;5;12m\e[1m             .',;::::;,'.
+         .';:cccccccccccc:;,.
+      .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;\e[37m\e[0m\e[1m.:dddl:.\e[38;5;12m\e[1m;ccccccc;.
+ .:ccccccccccccc;\e[37m\e[0m\e[1mOWMKOOXMWd\e[38;5;12m\e[1m;ccccccc:.
+.:ccccccccccccc;\e[37m\e[0m\e[1mKMMc\e[38;5;12m\e[1m;cc;\e[37m\e[0m\e[1mxMMc\e[38;5;12m\e[1m:ccccccc:.
+,cccccccccccccc;\e[37m\e[0m\e[1mMMM.\e[38;5;12m\e[1m;cc;\e[37m\e[0m\e[1m;WW:\e[38;5;12m\e[1m:cccccccc,
+:cccccccccccccc;\e[37m\e[0m\e[1mMMM.\e[38;5;12m\e[1m;cccccccccccccccc:
+:ccccccc;\e[37m\e[0m\e[1moxOOOo\e[38;5;12m\e[1m;\e[37m\e[0m\e[1mMMM0OOk.\e[38;5;12m\e[1m;cccccccccccc:
+cccccc:\e[37m\e[0m\e[1m0MMKxdd:\e[38;5;12m\e[1m;\e[37m\e[0m\e[1mMMMkddc.\e[38;5;12m\e[1m;cccccccccccc;
+ccccc:\e[37m\e[0m\e[1mXM0'\e[38;5;12m\e[1m;cccc;\e[37m\e[0m\e[1mMMM.\e[38;5;12m\e[1m;cccccccccccccccc'
+ccccc;\e[37m\e[0m\e[1mMMo\e[38;5;12m\e[1m;ccccc;\e[37m\e[0m\e[1mMMW.\e[38;5;12m\e[1m;ccccccccccccccc;
+ccccc;\e[37m\e[0m\e[1m0MNc.\e[38;5;12m\e[1mccc\e[37m\e[0m\e[1m.xMMd\e[38;5;12m\e[1m:ccccccccccccccc;
+cccccc;\e[37m\e[0m\e[1mdNMWXXXWM0:\e[38;5;12m\e[1m:cccccccccccccc:,
+cccccccc;\e[37m\e[0m\e[1m.:odl:.\e[38;5;12m\e[1m;cccccccccccccc:,.
+:cccccccccccccccccccccccccccc:'.
+.:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.\e[0m
+\e[19A\e[9999999D\e[41C\e[0m\e[1m\e[38;5;12m\e[1mlalala\e[0m@\e[38;5;12m\e[1mAlibaba-Cloud-Elastic-Compute-Service\e[0m
+\e[41C\e[0m--------------------------------------------\e[0m
+\e[41C\e[38;5;12m\e[1mOS\e[0m\e[0m:\e[0m Fedora release 40 (Forty) x86_64\e[0m
+\e[41C\e[38;5;12m\e[1mHost\e[0m\e[0m:\e[0m Alibaba Cloud ECS pc-i440fx-2.1\e[0m
+\e[41C\e[38;5;12m\e[1mKernel\e[0m\e[0m:\e[0m 6.10.10-200.fc40.x86_64\e[0m
+\e[41C\e[38;5;12m\e[1mUptime\e[0m\e[0m:\e[0m 9 days, 19 hours, 22 mins\e[0m
+\e[41C\e[38;5;12m\e[1mPackages\e[0m\e[0m:\e[0m 993 (rpm)\e[0m
+\e[41C\e[38;5;12m\e[1mShell\e[0m\e[0m:\e[0m bash 5.2.26\e[0m
+\e[41C\e[38;5;12m\e[1mResolution\e[0m\e[0m:\e[0m 1024x768\e[0m
+\e[41C\e[38;5;12m\e[1mTerminal\e[0m\e[0m:\e[0m /dev/pts/0\e[0m
+\e[41C\e[38;5;12m\e[1mCPU\e[0m\e[0m:\e[0m Intel Xeon Platinum (2) @ 2.499GHz\e[0m
+\e[41C\e[38;5;12m\e[1mGPU\e[0m\e[0m:\e[0m 00:02.0 Cirrus Logic GD 5446\e[0m
+\e[41C\e[38;5;12m\e[1mMemory\e[0m\e[0m:\e[0m 360MiB / 1701MiB\e[0m
+
+\e[41C\e[30m\e[40m   \e[31m\e[41m   \e[32m\e[42m   \e[33m\e[43m   \e[34m\e[44m   \e[35m\e[45m   \e[36m\e[46m   \e[37m\e[47m   \e[m
+\e[41C\e[38;5;8m\e[48;5;8m   \e[38;5;9m\e[48;5;9m   \e[38;5;10m\e[48;5;10m   \e[38;5;11m\e[48;5;11m   \e[38;5;12m\e[48;5;12m   \e[38;5;13m\e[48;5;13m   \e[38;5;14m\e[48;5;14m   \e[38;5;15m\e[48;5;15m   \e[m
+
+
+
+
+
+
+
+^[[?25l^[[?7l^[[38;5;12m^[[1m             .',;::::;,'.
+         .';:cccccccccccc:;,.
+      .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;^[[37m^[[0m^[[1m.:dddl:.^[[38;5;12m^[[1m;ccccccc;.
+ .:ccccccccccccc;^[[37m^[[0m^[[1mOWMKOOXMWd^[[38;5;12m^[[1m;ccccccc:.
+.:ccccccccccccc;^[[37m^[[0m^[[1mKMMc^[[38;5;12m^[[1m;cc;^[[37m^[[0m^[[1mxMMc^[[38;5;12m^[[1m:ccccccc:.
+,cccccccccccccc;^[[37m^[[0m^[[1mMMM.^[[38;5;12m^[[1m;cc;^[[37m^[[0m^[[1m;WW:^[[38;5;12m^[[1m:cccccccc,
+:cccccccccccccc;^[[37m^[[0m^[[1mMMM.^[[38;5;12m^[[1m;cccccccccccccccc:
+:ccccccc;^[[37m^[[0m^[[1moxOOOo^[[38;5;12m^[[1m;^[[37m^[[0m^[[1mMMM0OOk.^[[38;5;12m^[[1m;cccccccccccc:
+cccccc:^[[37m^[[0m^[[1m0MMKxdd:^[[38;5;12m^[[1m;^[[37m^[[0m^[[1mMMMkddc.^[[38;5;12m^[[1m;cccccccccccc;
+ccccc:^[[37m^[[0m^[[1mXM0'^[[38;5;12m^[[1m;cccc;^[[37m^[[0m^[[1mMMM.^[[38;5;12m^[[1m;cccccccccccccccc'
+ccccc;^[[37m^[[0m^[[1mMMo^[[38;5;12m^[[1m;ccccc;^[[37m^[[0m^[[1mMMW.^[[38;5;12m^[[1m;ccccccccccccccc;
+ccccc;^[[37m^[[0m^[[1m0MNc.^[[38;5;12m^[[1mccc^[[37m^[[0m^[[1m.xMMd^[[38;5;12m^[[1m:ccccccccccccccc;
+cccccc;^[[37m^[[0m^[[1mdNMWXXXWM0:^[[38;5;12m^[[1m:cccccccccccccc:,
+cccccccc;^[[37m^[[0m^[[1m.:odl:.^[[38;5;12m^[[1m;cccccccccccccc:,.
+:cccccccccccccccccccccccccccc:'.
+.:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.^[[0m
+^[[19A^[[9999999D^[[41C^[[0m^[[1m^[[38;5;12m^[[1mlalala^[[0m@^[[38;5;12m^[[1mAlibaba-Cloud-Elastic-Compute-Service^[[0m
+^[[41C^[[0m--------------------------------------------^[[0m
+^[[41C^[[38;5;12m^[[1mOS^[[0m^[[0m:^[[0m Fedora release 40 (Forty) x86_64^[[0m
+^[[41C^[[38;5;12m^[[1mHost^[[0m^[[0m:^[[0m Alibaba Cloud ECS pc-i440fx-2.1^[[0m
+^[[41C^[[38;5;12m^[[1mKernel^[[0m^[[0m:^[[0m 6.10.10-200.fc40.x86_64^[[0m
+^[[41C^[[38;5;12m^[[1mUptime^[[0m^[[0m:^[[0m 10 days, 1 hour, 3 mins^[[0m
+^[[41C^[[38;5;12m^[[1mPackages^[[0m^[[0m:^[[0m 993 (rpm)^[[0m
+^[[41C^[[38;5;12m^[[1mShell^[[0m^[[0m:^[[0m bash 5.2.26^[[0m
+^[[41C^[[38;5;12m^[[1mResolution^[[0m^[[0m:^[[0m 1024x768^[[0m
+^[[41C^[[38;5;12m^[[1mTerminal^[[0m^[[0m:^[[0m /dev/pts/1^[[0m
+^[[41C^[[38;5;12m^[[1mCPU^[[0m^[[0m:^[[0m Intel Xeon Platinum (2) @ 2.499GHz^[[0m
+^[[41C^[[38;5;12m^[[1mGPU^[[0m^[[0m:^[[0m 00:02.0 Cirrus Logic GD 5446^[[0m
+^[[41C^[[38;5;12m^[[1mMemory^[[0m^[[0m:^[[0m 371MiB / 1701MiB^[[0m
+
+^[[41C^[[30m^[[40m   ^[[31m^[[41m   ^[[32m^[[42m   ^[[33m^[[43m   ^[[34m^[[44m   ^[[35m^[[45m   ^[[36m^[[46m   ^[[37m^[[47m   ^[[m
+^[[41C^[[38;5;8m^[[48;5;8m   ^[[38;5;9m^[[48;5;9m   ^[[38;5;10m^[[48;5;10m   ^[[38;5;11m^[[48;5;11m   ^[[38;5;12m^[[48;5;12m   ^[[38;5;13m^[[48;5;13m   ^[[38;5;14m^[[48;5;14m   ^[[38;5;15m^[[48;5;15m   ^[[m
+

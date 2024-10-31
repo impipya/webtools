@@ -1,0 +1,23 @@
+ANSI Text
+|
+| split by row to
+v
+Every ANSI Text of row
+|
+| split by CSI(Control Sequence Introducer) to
+v
+CSTP(Control Sequence(without CSI)|Text Pair)
+|
+| split to
+|                      split to                          pass parameter to specific function
+1---> Control Sequence ---> PFP(Parameter|Function Pair) ---> Affects the SA(style attributes)
+|
+| and
+|          pass text, SA, CP(Cursor Positon) to function
+2---> Text ---> Render text --> Write to new text buffer
+                |
+                |
+                v
+                Affects the CP
+
+

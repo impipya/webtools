@@ -1,0 +1,127 @@
+
+Fedora:
+
+^[[?25l^[[?7l^[[38;5;12m^[[1m             .',;::::;,'.
+         .';:cccccccccccc:;,.
+      .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;^[[37m^[[0m^[[1m.:dddl:.^[[38;5;12m^[[1m;ccccccc;.
+ .:ccccccccccccc;^[[37m^[[0m^[[1mOWMKOOXMWd^[[38;5;12m^[[1m;ccccccc:.
+.:ccccccccccccc;^[[37m^[[0m^[[1mKMMc^[[38;5;12m^[[1m;cc;^[[37m^[[0m^[[1mxMMc^[[38;5;12m^[[1m:ccccccc:.
+,cccccccccccccc;^[[37m^[[0m^[[1mMMM.^[[38;5;12m^[[1m;cc;^[[37m^[[0m^[[1m;WW:^[[38;5;12m^[[1m:cccccccc,
+:cccccccccccccc;^[[37m^[[0m^[[1mMMM.^[[38;5;12m^[[1m;cccccccccccccccc:
+:ccccccc;^[[37m^[[0m^[[1moxOOOo^[[38;5;12m^[[1m;^[[37m^[[0m^[[1mMMM0OOk.^[[38;5;12m^[[1m;cccccccccccc:
+cccccc:^[[37m^[[0m^[[1m0MMKxdd:^[[38;5;12m^[[1m;^[[37m^[[0m^[[1mMMMkddc.^[[38;5;12m^[[1m;cccccccccccc;
+ccccc:^[[37m^[[0m^[[1mXM0'^[[38;5;12m^[[1m;cccc;^[[37m^[[0m^[[1mMMM.^[[38;5;12m^[[1m;cccccccccccccccc'
+ccccc;^[[37m^[[0m^[[1mMMo^[[38;5;12m^[[1m;ccccc;^[[37m^[[0m^[[1mMMW.^[[38;5;12m^[[1m;ccccccccccccccc;
+ccccc;^[[37m^[[0m^[[1m0MNc.^[[38;5;12m^[[1mccc^[[37m^[[0m^[[1m.xMMd^[[38;5;12m^[[1m:ccccccccccccccc;
+cccccc;^[[37m^[[0m^[[1mdNMWXXXWM0:^[[38;5;12m^[[1m:cccccccccccccc:,
+cccccccc;^[[37m^[[0m^[[1m.:odl:.^[[38;5;12m^[[1m;cccccccccccccc:,.
+:cccccccccccccccccccccccccccc:'.
+.:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.^[[0m
+^[[19A^[[9999999D^[[41C^[[0m^[[1m^[[38;5;12m^[[1mlalala^[[0m@^[[38;5;12m^[[1mAlibaba-Cloud-Elastic-Compute-Service^[[0m
+^[[41C^[[0m--------------------------------------------^[[0m
+^[[41C^[[38;5;12m^[[1mOS^[[0m^[[0m:^[[0m Fedora release 40 (Forty) x86_64^[[0m
+^[[41C^[[38;5;12m^[[1mHost^[[0m^[[0m:^[[0m Alibaba Cloud ECS pc-i440fx-2.1^[[0m
+^[[41C^[[38;5;12m^[[1mKernel^[[0m^[[0m:^[[0m 6.10.10-200.fc40.x86_64^[[0m
+^[[41C^[[38;5;12m^[[1mUptime^[[0m^[[0m:^[[0m 1 day, 5 hours, 28 mins^[[0m
+^[[41C^[[38;5;12m^[[1mPackages^[[0m^[[0m:^[[0m 1006 (rpm)^[[0m
+^[[41C^[[38;5;12m^[[1mShell^[[0m^[[0m:^[[0m bash 5.2.26^[[0m
+^[[41C^[[38;5;12m^[[1mResolution^[[0m^[[0m:^[[0m 1024x768^[[0m
+^[[41C^[[38;5;12m^[[1mTerminal^[[0m^[[0m:^[[0m /dev/pts/0^[[0m
+^[[41C^[[38;5;12m^[[1mCPU^[[0m^[[0m:^[[0m Intel Xeon Platinum (2) @ 2.500GHz^[[0m
+^[[41C^[[38;5;12m^[[1mGPU^[[0m^[[0m:^[[0m 00:02.0 Cirrus Logic GD 5446^[[0m
+^[[41C^[[38;5;12m^[[1mMemory^[[0m^[[0m:^[[0m 283MiB / 1701MiB^[[0m
+
+^[[41C^[[30m^[[40m   ^[[31m^[[41m   ^[[32m^[[42m   ^[[33m^[[43m   ^[[34m^[[44m   ^[[35m^[[45m   ^[[36m^[[46m   ^[[37m^[[47m   ^[[m
+^[[41C^[[38;5;8m^[[48;5;8m   ^[[38;5;9m^[[48;5;9m   ^[[38;5;10m^[[48;5;10m   ^[[38;5;11m^[[48;5;11m   ^[[38;5;12m^[[48;5;12m   ^[[38;5;13m^[[48;5;13m   ^[[38;5;14m^[[48;5;14m   ^[[38;5;15m^[[48;5;15m   ^[[m
+
+
+
+
+^[[?25h^[[?7h
+
+Ubuntu:
+
+^[[?25l^[[?7l^[[0m^[[31m^[[1m            .-/+oossssoo+/-.
+        `:+ssssssssssssssssss+:`
+      -+ssssssssssssssssssyyssss+-
+    .ossssssssssssssssss^[[37m^[[0m^[[1mdMMMNy^[[0m^[[31m^[[1msssso.
+   /sssssssssss^[[37m^[[0m^[[1mhdmmNNmmyNMMMMh^[[0m^[[31m^[[1mssssss/
+  +sssssssss^[[37m^[[0m^[[1mhm^[[0m^[[31m^[[1myd^[[37m^[[0m^[[1mMMMMMMMNddddy^[[0m^[[31m^[[1mssssssss+
+ /ssssssss^[[37m^[[0m^[[1mhNMMM^[[0m^[[31m^[[1myh^[[37m^[[0m^[[1mhyyyyhmNMMMNh^[[0m^[[31m^[[1mssssssss/
+.ssssssss^[[37m^[[0m^[[1mdMMMNh^[[0m^[[31m^[[1mssssssssss^[[37m^[[0m^[[1mhNMMMd^[[0m^[[31m^[[1mssssssss.
++ssss^[[37m^[[0m^[[1mhhhyNMMNy^[[0m^[[31m^[[1mssssssssssss^[[37m^[[0m^[[1myNMMMy^[[0m^[[31m^[[1msssssss+
+oss^[[37m^[[0m^[[1myNMMMNyMMh^[[0m^[[31m^[[1mssssssssssssss^[[37m^[[0m^[[1mhmmmh^[[0m^[[31m^[[1mssssssso
+oss^[[37m^[[0m^[[1myNMMMNyMMh^[[0m^[[31m^[[1msssssssssssssshmmmh^[[0m^[[31m^[[1mssssssso
++ssss^[[37m^[[0m^[[1mhhhyNMMNy^[[0m^[[31m^[[1mssssssssssss^[[37m^[[0m^[[1myNMMMy^[[0m^[[31m^[[1msssssss+
+.ssssssss^[[37m^[[0m^[[1mdMMMNh^[[0m^[[31m^[[1mssssssssss^[[37m^[[0m^[[1mhNMMMd^[[0m^[[31m^[[1mssssssss.
+ /ssssssss^[[37m^[[0m^[[1mhNMMM^[[0m^[[31m^[[1myh^[[37m^[[0m^[[1mhyyyyhdNMMMNh^[[0m^[[31m^[[1mssssssss/
+  +sssssssss^[[37m^[[0m^[[1mdm^[[0m^[[31m^[[1myd^[[37m^[[0m^[[1mMMMMMMMMddddy^[[0m^[[31m^[[1mssssssss+
+   /sssssssssss^[[37m^[[0m^[[1mhdmNNNNmyNMMMMh^[[0m^[[31m^[[1mssssss/
+    .ossssssssssssssssss^[[37m^[[0m^[[1mdMMMNy^[[0m^[[31m^[[1msssso.
+      -+sssssssssssssssss^[[37m^[[0m^[[1myyy^[[0m^[[31m^[[1mssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.^[[0m
+^[[20A^[[9999999D^[[43C^[[0m^[[1m^[[31m^[[1mlalala^[[0m@^[[31m^[[1mAlibaba-Cloud-Elastic-Compute-Service^[[0m
+^[[43C^[[0m--------------------------------------------^[[0m
+^[[43C^[[0m^[[31m^[[1mOS^[[0m^[[0m:^[[0m Fedora release 40 (Forty) x86_64^[[0m
+^[[43C^[[0m^[[31m^[[1mHost^[[0m^[[0m:^[[0m Alibaba Cloud ECS pc-i440fx-2.1^[[0m
+^[[43C^[[0m^[[31m^[[1mKernel^[[0m^[[0m:^[[0m 6.10.10-200.fc40.x86_64^[[0m
+^[[43C^[[0m^[[31m^[[1mUptime^[[0m^[[0m:^[[0m 1 day, 8 hours, 12 mins^[[0m
+^[[43C^[[0m^[[31m^[[1mPackages^[[0m^[[0m:^[[0m 1014 (rpm)^[[0m
+^[[43C^[[0m^[[31m^[[1mShell^[[0m^[[0m:^[[0m bash 5.2.26^[[0m
+^[[43C^[[0m^[[31m^[[1mResolution^[[0m^[[0m:^[[0m 1024x768^[[0m
+^[[43C^[[0m^[[31m^[[1mTerminal^[[0m^[[0m:^[[0m /dev/pts/0^[[0m
+^[[43C^[[0m^[[31m^[[1mCPU^[[0m^[[0m:^[[0m Intel Xeon Platinum (2) @ 2.500GHz^[[0m
+^[[43C^[[0m^[[31m^[[1mGPU^[[0m^[[0m:^[[0m 00:02.0 Cirrus Logic GD 5446^[[0m
+^[[43C^[[0m^[[31m^[[1mMemory^[[0m^[[0m:^[[0m 283MiB / 1701MiB^[[0m
+
+^[[43C^[[30m^[[40m   ^[[31m^[[41m   ^[[32m^[[42m   ^[[33m^[[43m   ^[[34m^[[44m   ^[[35m^[[45m   ^[[36m^[[46m   ^[[37m^[[47m   ^[[m
+^[[43C^[[38;5;8m^[[48;5;8m   ^[[38;5;9m^[[48;5;9m   ^[[38;5;10m^[[48;5;10m   ^[[38;5;11m^[[48;5;11m   ^[[38;5;12m^[[48;5;12m   ^[[38;5;13m^[[48;5;13m   ^[[38;5;14m^[[48;5;14m   ^[[38;5;15m^[[48;5;15m   ^[[m
+
+
+
+
+
+^[[?25h^[[?7h
+
+Cent os
+
+^[[?25l^[[?7l^[[0m^[[33m^[[1m                 ..
+               .PLTJ.
+              <><><><>
+     ^[[0m^[[32m^[[1mKKSSV' 4KKK ^[[0m^[[33m^[[1mLJ^[[0m^[[35m^[[1m KKKL.'VSSKK
+     ^[[0m^[[32m^[[1mKKV' 4KKKKK ^[[0m^[[33m^[[1mLJ^[[0m^[[35m^[[1m KKKKAL 'VKK
+     ^[[0m^[[32m^[[1mV' ' 'VKKKK ^[[0m^[[33m^[[1mLJ^[[0m^[[35m^[[1m KKKKV' ' 'V
+     ^[[0m^[[32m^[[1m.4MA.' 'VKK ^[[0m^[[33m^[[1mLJ^[[0m^[[35m^[[1m KKV' '.4Mb.
+^[[0m^[[35m^[[1m   . ^[[0m^[[32m^[[1mKKKKKA.' 'V ^[[0m^[[33m^[[1mLJ^[[0m^[[35m^[[1m V' '.4KKKKK ^[[0m^[[34m^[[1m.
+^[[0m^[[35m^[[1m .4D ^[[0m^[[32m^[[1mKKKKKKKA.'' ^[[0m^[[33m^[[1mLJ^[[0m^[[35m^[[1m ''.4KKKKKKK ^[[0m^[[34m^[[1mFA.
+^[[0m^[[35m^[[1m<QDD ++++++++++++  ^[[0m^[[34m^[[1m++++++++++++ GFD>
+^[[0m^[[35m^[[1m 'VD ^[[0m^[[34m^[[1mKKKKKKKK'.. ^[[0m^[[32m^[[1mLJ ^[[0m^[[33m^[[1m..'KKKKKKKK ^[[0m^[[34m^[[1mFV
+^[[0m^[[35m^[[1m   ' ^[[0m^[[34m^[[1mVKKKKK'. .4 ^[[0m^[[32m^[[1mLJ ^[[0m^[[33m^[[1mK. .'KKKKKV ^[[0m^[[34m^[[1m'
+     ^[[0m^[[34m^[[1m 'VK'. .4KK ^[[0m^[[32m^[[1mLJ ^[[0m^[[33m^[[1mKKA. .'KV'
+     ^[[0m^[[34m^[[1mA. . .4KKKK ^[[0m^[[32m^[[1mLJ ^[[0m^[[33m^[[1mKKKKA. . .4
+     ^[[0m^[[34m^[[1mKKA. 'KKKKK ^[[0m^[[32m^[[1mLJ ^[[0m^[[33m^[[1mKKKKK' .4KK
+     ^[[0m^[[34m^[[1mKKSSA. VKKK ^[[0m^[[32m^[[1mLJ ^[[0m^[[33m^[[1mKKKV .4SSKK
+^[[0m^[[32m^[[1m              <><><><>
+               'MKKM'
+                 ''^[[0m
+^[[19A^[[9999999D^[[39C^[[0m^[[1m^[[33m^[[1mlalala^[[0m@^[[33m^[[1mAlibaba-Cloud-Elastic-Compute-Service^[[0m
+^[[39C^[[0m--------------------------------------------^[[0m
+^[[39C^[[0m^[[32m^[[1mOS^[[0m^[[0m:^[[0m Fedora release 40 (Forty) x86_64^[[0m
+^[[39C^[[0m^[[32m^[[1mHost^[[0m^[[0m:^[[0m Alibaba Cloud ECS pc-i440fx-2.1^[[0m
+^[[39C^[[0m^[[32m^[[1mKernel^[[0m^[[0m:^[[0m 6.10.10-200.fc40.x86_64^[[0m
+^[[39C^[[0m^[[32m^[[1mUptime^[[0m^[[0m:^[[0m 2 days, 5 hours, 59 mins^[[0m
+^[[39C^[[0m^[[32m^[[1mPackages^[[0m^[[0m:^[[0m 1014 (rpm)^[[0m
+^[[39C^[[0m^[[32m^[[1mShell^[[0m^[[0m:^[[0m bash 5.2.26^[[0m
+^[[39C^[[0m^[[32m^[[1mResolution^[[0m^[[0m:^[[0m 1024x768^[[0m
+^[[39C^[[0m^[[32m^[[1mTerminal^[[0m^[[0m:^[[0m /dev/pts/0^[[0m
+^[[39C^[[0m^[[32m^[[1mCPU^[[0m^[[0m:^[[0m Intel Xeon Platinum (2) @ 2.500GHz^[[0m
+^[[39C^[[0m^[[32m^[[1mGPU^[[0m^[[0m:^[[0m 00:02.0 Cirrus Logic GD 5446^[[0m
+^[[39C^[[0m^[[32m^[[1mMemory^[[0m^[[0m:^[[0m 296MiB / 1701MiB^[[0m
+
+^[[39C^[[30m^[[40m   ^[[31m^[[41m   ^[[32m^[[42m   ^[[33m^[[43m   ^[[34m^[[44m   ^[[35m^[[45m   ^[[36m^[[46m   ^[[37m^[[47m   ^[[m
+^[[39C^[[38;5;8m^[[48;5;8m   ^[[38;5;9m^[[48;5;9m   ^[[38;5;10m^[[48;5;10m   ^[[38;5;11m^[[48;5;11m   ^[[38;5;12m^[[48;5;12m   ^[[38;5;13m^[[48;5;13m   ^[[38;5;14m^[[48;5;14m   ^[[38;5;15m^[[48;5;15m   ^[[m
+

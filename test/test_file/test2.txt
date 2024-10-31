@@ -1,0 +1,38 @@
+^[[?25h^[[?7h
+
+
+        ,.=:!!t3Z3z.,
+       :tt:::tt333EE3
+       Et:::ztt33EEEL @Ee.,      ..,
+      ;tt:::tt333EE7 ;EEEEEEttttt33#
+     :Et:::zt333EEQ. EEEEttttt33QL
+     it::::tt333EEF @EEEEEEttttt33F
+    ;3=*^```"*4EEV :EEEEEEttttt33@.
+    ,.=::::!t=., ` @EEEEEEtttz33QF
+   ;::::::::zt33)   "4EEEtttji3P*
+  :t::::::::tt33.:Z3z..  `` ,..g.
+  i::::::::zt33F AEEEtttt::::ztF
+ ;:::::::::t33V ;EEEttttt::::t3
+ E::::::::zt33L @EEEtttt::::z3F
+{3=*^```"*4E3) ;EEEtttt:::::tZ`
+             ` :EEEEtttt::::z7
+                 "VEzjt:;;z>*`^[[1G^[[15A^[[40Clalala@Alibaba-Cloud-Elastic-Compute-Service
+^[[40C--------------------------------------------
+^[[40COS: Fedora Linux 40 (Server Edition) x86_64
+^[[40CHost: Alibaba Cloud ECS (pc-i440fx-2.1)
+^[[40CKernel: Linux 6.10.10-200.fc40.x86_64
+^[[40CUptime: 2 days, 6 hours, 20 mins
+^[[40CPackages: 1014 (rpm)
+^[[40CShell: bash 5.2.26
+^[[40CCursor: Adwaita
+^[[40CTerminal: tmux 3.4
+^[[40CCPU: Intel(R) Xeon(R) Platinum (2) @ 2.50 GHz
+^[[40CGPU: Cirrus Logic GD 5446
+^[[40CMemory: 423.47 MiB / 1.66 GiB (25%)
+^[[40CSwap: Disabled
+^[[40CDisk (/): 5.80 GiB / 39.84 GiB (15%) - xfs
+^[[40CLocal IP (eth0): 172.22.60.123/20
+^[[40CLocale: en_US.UTF-8
+^[[40C
+^[[40C^[[40m   ^[[41m   ^[[42m   ^[[43m   ^[[44m   ^[[45m   ^[[46m   ^[[47m   ^[[m
+^[[40C^[[100m   ^[[101m   ^[[102m   ^[[103m   ^[[104m   ^[[105m   ^[[106m   ^[[107m   ^[[m
