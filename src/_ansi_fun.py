@@ -103,7 +103,7 @@ def m(p1: int = None, p2: int = None, p3=None, p4=None, p5=None):
                         palette_4bit.index(color_active_foreground) + 8
                     ]
                 else:
-                    pass # TODO initial bright 8bit bright
+                    pass  # TODO initial bright 8bit bright
     elif p1 == 3:
         italic_enable = True
     elif p1 == 4:
@@ -119,7 +119,7 @@ def m(p1: int = None, p2: int = None, p3=None, p4=None, p5=None):
             info_print('e', f'Invalid parameter p2 --> {p2}.')
             sys.exit()
     elif 40 <= p1 <= 47:
-            color_active_background = palette_4bit[p1 - 40]
+        color_active_background = palette_4bit[p1 - 40]
     elif p1 == 48:
         if p2 == 5:
             color_active_background = palette_8bit[p3]
@@ -137,8 +137,6 @@ def m(p1: int = None, p2: int = None, p3=None, p4=None, p5=None):
         sys.exit()
 
 
-
-
 def A(p1: int=1):
     global cursor_pos_y
     cursor_pos_y -= p1
@@ -147,22 +145,16 @@ def A(p1: int=1):
     # print(f'{cursor_pos_y=}')
 
 
-
-
 def B(p1: int=1):
     global cursor_pos_y
     cursor_pos_y += p1
     # print(f'{cursor_pos_y=}')
 
 
-
-
 def C(p1: int=1):
     global cursor_pos_x
     cursor_pos_x += p1
     # print(f'{cursor_pos_x=}')
-
-
 
 
 def D(p1: int=1):
@@ -173,15 +165,11 @@ def D(p1: int=1):
     # print(f'{cursor_pos_x=}')
 
 
-
-
 def E(p1: int=1):
     global cursor_pos_y
     global cursor_pos_x
     cursor_pos_y += p1
     cursor_pos_x = 0
-
-
 
 
 def F(p1: int=1):
@@ -193,13 +181,9 @@ def F(p1: int=1):
     cursor_pos_x = 0
 
 
-
-
 def G(p1: int=1):
     global cursor_pos_x
     cursor_pos_x = p1 - 1
-
-
 
 
 def H(p1: int=1, p2: int=1):
@@ -207,8 +191,6 @@ def H(p1: int=1, p2: int=1):
     global cursor_pos_x
     cursor_pos_y = p1 - 1
     cursor_pos_x = p2 - 1
-
-
 
 
 def J(p1: int=0):
@@ -222,8 +204,6 @@ def J(p1: int=0):
             screen_buffer[:cursor_pos_y] = ''
         case 2:
             screen_buffer[:cursor_pos_y] = ['']
-
-
 
 
 def K(p1: int=0):
@@ -248,8 +228,6 @@ def K(p1: int=0):
             screen_buffer[cursor_pos_y] = ['']
 
 
-
-
 def S(p1: int=1):
     global cursor_pos_y
     global cursor_pos_x
@@ -258,17 +236,12 @@ def S(p1: int=1):
         screen_buffer.append([''])
 
 
-
-
-
 def T(p1: int=1):
     global cursor_pos_y
     global cursor_pos_x
 
     for _ in range(p1):
         screen_buffer.insert(0, [''])
-
-
 
 
 def s():
@@ -281,8 +254,6 @@ def s():
     last_cursor_pos_x = cursor_pos_x
 
 
-
-
 def u():
     global cursor_pos_y
     global cursor_pos_x
@@ -293,8 +264,5 @@ def u():
     cursor_pos_x = last_cursor_pos_x
 
 
-
-
 def l(*p):
     pass
-

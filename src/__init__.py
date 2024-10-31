@@ -1,4 +1,1 @@
-
-__all__ = [
-    'webansi'
-]
+__all__ = ["webansi"]

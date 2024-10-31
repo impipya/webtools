@@ -9,9 +9,7 @@ elif!!!!!!!
 """
 
 
-
-
-def text_insterer(text: str, pos: int, insert: str, debug: bool=False) -> str:
+def text_insterer(text: str, pos: int, insert: str, debug: bool = False) -> str:
     """不受HTML标签影响, 将文本插入指定的位置
     ### param
     - text: 被插入文本
@@ -54,7 +52,7 @@ def text_insterer(text: str, pos: int, insert: str, debug: bool=False) -> str:
             elif not flag_cursorInTag:
                 if text[realPos:realPos+3] == '&gt' or text[realPos:realPos+3] == '&lt':
                     cursorPos -= 2
-                cursorPos += 1 # 当检测不在标签内时, cursorPos和realPos同步
+                cursorPos += 1  # 当检测不在标签内时, cursorPos和realPos同步
 
             elif flag_cursorInOpenTag:
                 lastOpenTag += text[realPos]
@@ -86,45 +84,18 @@ def text_insterer(text: str, pos: int, insert: str, debug: bool=False) -> str:
                         realPos -= 1
                         if text[realPos] == '<':
                             # 在光标的左侧插入
-                            if debug: insert = f'\033[31m{insert}\033[0m'
+                            if debug:
+                                insert = f"\033[31m{insert}\033[0m"
                             return f'{text[:realPos]}{insert}{text[realPos:]}'
                 else:
                     print('样式隔离start')
                     # 在光标的左侧插入
                     insert = f'</span>{insert}<{lastOpenTag}>'
-                    if debug: insert = f'\033[31m{insert}\033[0m'
+                    if debug:
+                        insert = f"\033[31m{insert}\033[0m"
                     return f'{text[:realPos]}{insert}{text[realPos:]}'
 
             else:
-                if debug: insert = f'\033[31m{insert}\033[0m'
+                if debug:
+                    insert = f"\033[31m{insert}\033[0m"
                 return f'{text[:realPos]}{insert}{text[realPos:]}'.rstrip(placeholder)
-
-
-
-
-if __name__ =='__main__':
-    test_text = '<span style="background-color: rgb(255, 111, 0);">5678</span><span style="background-color: rgb(255, 111, 0.0);">901234</span>'
-
-
-    for i in range(20 + 1):
-        print(text_insterer(test_text, i, '[===]', debug=True))
-
-    # insert empty string test
-    for i in range(20 + 1):
-        print(text_insterer(test_text, i, '', debug=True))
-
-    # insert empty string to shrot string # 不会发生
-    for i in range(20 + 1):
-        print(text_insterer('1', i, '', debug=True))
-
-    # insert empty string to empty string
-    for i in range(20 + 1):
-        print(text_insterer('', i, '', debug=True))
-
-    # insert string to empty string
-    for i in range(20 + 1):
-        print(text_insterer('', i, '123', debug=True))
-
-
-
-

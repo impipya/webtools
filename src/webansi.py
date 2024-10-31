@@ -1,16 +1,14 @@
-
 import re
 
+from html_tools import html_mark_escape
+
 from . import _ansi_fun
-from ._text_inserter import *
-from ._text_renderer import *
-from ._html_tools import *
+from ._text_inserter import text_insterer
+from ._text_renderer import text_renderer
 
 
-
-
-def ansi_to_html(text: str, style: bool=True, debug=False) -> str:
-    '''translate ansi code to html code'''
+def ansi_to_html(text: str, style: bool = True, debug=False) -> str:
+    """translate ansi code to html code"""
 
     # init
     _ansi_fun.screen_buffer = []
@@ -24,7 +22,7 @@ def ansi_to_html(text: str, style: bool=True, debug=False) -> str:
         _ansi_fun.screen_buffer.append('')
         for i, cstp in enumerate(row.split('^[[')):
             # 给行首文字接续style
-            if i == 0 : # first must have not CS, so directly writo to file
+            if i == 0:  # first must have not CS, so directly writo to file
                 if cstp != '':
                     t = cstp
                 else:
@@ -42,8 +40,9 @@ def ansi_to_html(text: str, style: bool=True, debug=False) -> str:
                         eval(f'_ansi_fun.{f}()')
 
                     else:
-                        lbd = lambda s: int(s) if s != '' else 0
-                        p = [lbd(s.strip('?')) for s in p]          # TODO Some 临时性处理 直接忽略带?的属性
+                        p = [
+                            lambda s: int(s) if s != "" else 0(s.strip("?")) for s in p
+                        ]  # TODO Some 临时性处理 直接忽略带?的属性
 
                         if debug:
                             if f in 'EFGHJKSTlsu':
@@ -57,8 +56,12 @@ def ansi_to_html(text: str, style: bool=True, debug=False) -> str:
                 else:
                     t = ''
 
-            if t != '': # 空文字不做动
-                _ansi_fun.screen_buffer[_ansi_fun.cursor_pos_y] = text_insterer(_ansi_fun.screen_buffer[_ansi_fun.cursor_pos_y], _ansi_fun.cursor_pos_x, text_renderer(t))
+            if t != "":  # 空文字不做动
+                _ansi_fun.screen_buffer[_ansi_fun.cursor_pos_y] = text_insterer(
+                    _ansi_fun.screen_buffer[_ansi_fun.cursor_pos_y],
+                    _ansi_fun.cursor_pos_x,
+                    text_renderer(t),
+                )
                 pattern_tag = re.compile(r'&lt|&gt')
                 _, tag_num = pattern_tag.subn('', t)
                 _ansi_fun.cursor_pos_x += len(t) - tag_num * 2
