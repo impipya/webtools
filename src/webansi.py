@@ -41,7 +41,7 @@ def ansi_to_html(text: str, style: bool = True, debug=False) -> str:
 
                     else:
                         p = [
-                            lambda s: int(s) if s != "" else 0(s.strip("?")) for s in p
+                            (lambda s: int(s) if s != "" else 0)(s.strip("?")) for s in p
                         ]  # TODO Some 临时性处理 直接忽略带?的属性
 
                         if debug:
@@ -51,6 +51,7 @@ def ansi_to_html(text: str, style: bool = True, debug=False) -> str:
                         eval(f'_ansi_fun.{f}(*p)')
 
                 pattern_t = re.compile(r'(?<=[lmABCD]).*$')
+
                 if t := pattern_t.search(cstp):
                     t = t.group(0)
                 else:

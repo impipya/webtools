@@ -1,3 +1,6 @@
+from src._text_inserter import text_insterer
+
+
 if __name__ == "__main__":
     test_text = '<span style="style";">1234</span><span style="style">5678</span>'
 

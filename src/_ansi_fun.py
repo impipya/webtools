@@ -26,6 +26,7 @@ import sys
 from enum import Enum, auto
 
 from info_print import info_print
+from string_edit import cha_remove
 
 from ._palette_4bit import palette_4bit
 from ._palette_8bit import palette_8bit
@@ -137,7 +138,7 @@ def m(p1: int = None, p2: int = None, p3=None, p4=None, p5=None):
         sys.exit()
 
 
-def A(p1: int=1):
+def A(p1: int = 1):
     global cursor_pos_y
     cursor_pos_y -= p1
     if cursor_pos_y < 0:
@@ -145,19 +146,19 @@ def A(p1: int=1):
     # print(f'{cursor_pos_y=}')
 
 
-def B(p1: int=1):
+def B(p1: int = 1):
     global cursor_pos_y
     cursor_pos_y += p1
     # print(f'{cursor_pos_y=}')
 
 
-def C(p1: int=1):
+def C(p1: int = 1):
     global cursor_pos_x
     cursor_pos_x += p1
     # print(f'{cursor_pos_x=}')
 
 
-def D(p1: int=1):
+def D(p1: int = 1):
     global cursor_pos_x
     cursor_pos_x -= p1
     if cursor_pos_x < 0:
@@ -165,14 +166,14 @@ def D(p1: int=1):
     # print(f'{cursor_pos_x=}')
 
 
-def E(p1: int=1):
+def E(p1: int = 1):
     global cursor_pos_y
     global cursor_pos_x
     cursor_pos_y += p1
     cursor_pos_x = 0
 
 
-def F(p1: int=1):
+def F(p1: int = 1):
     global cursor_pos_y
     global cursor_pos_x
     cursor_pos_y -= p1
@@ -181,38 +182,38 @@ def F(p1: int=1):
     cursor_pos_x = 0
 
 
-def G(p1: int=1):
+def G(p1: int = 1):
     global cursor_pos_x
     cursor_pos_x = p1 - 1
 
 
-def H(p1: int=1, p2: int=1):
+def H(p1: int = 1, p2: int = 1):
     global cursor_pos_y
     global cursor_pos_x
     cursor_pos_y = p1 - 1
     cursor_pos_x = p2 - 1
 
 
-def J(p1: int=0):
+def J(p1: int = 0):
     global cursor_pos_y
     global cursor_pos_x
 
     match p1:
         case 0:
-            screen_buffer[cursor_pos_y:-1] = ''
+            screen_buffer[cursor_pos_y:-1] = ""
         case 1:
             screen_buffer[:cursor_pos_y] = ''
         case 2:
             screen_buffer[:cursor_pos_y] = ['']
 
 
-def K(p1: int=0):
+def K(p1: int = 0):
     global cursor_pos_y
     global cursor_pos_x
 
     match p1:
         case 0:
-            screen_buffer[cursor_pos_y][cursor_pos_x:-1] = '</span>'
+            screen_buffer[cursor_pos_y][cursor_pos_x:-1] = "</span>"
         case 1:
             realPos = cursor_pos_x
             flag_remove = True
@@ -222,13 +223,13 @@ def K(p1: int=0):
                 if c == '<':
                     flag_remove = True
                 elif flag_remove:
-                    screen_buffer[cursor_pos_y] = screen_buffer[cursor_pos_y][:realPos] + screen_buffer[cursor_pos_y][realPos + 1:]
+                    screen_buffer[cursor_pos_y] = cha_remove(screen_buffer, realPos)
                 realPos -= 1
         case 2:
             screen_buffer[cursor_pos_y] = ['']
 
 
-def S(p1: int=1):
+def S(p1: int = 1):
     global cursor_pos_y
     global cursor_pos_x
 
@@ -236,7 +237,7 @@ def S(p1: int=1):
         screen_buffer.append([''])
 
 
-def T(p1: int=1):
+def T(p1: int = 1):
     global cursor_pos_y
     global cursor_pos_x
 
